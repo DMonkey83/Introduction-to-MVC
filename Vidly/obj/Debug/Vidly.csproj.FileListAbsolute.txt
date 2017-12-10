@@ -121,3 +121,8 @@ d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csprojResol
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.dll
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedtoCustomer.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
