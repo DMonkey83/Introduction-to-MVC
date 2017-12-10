@@ -1,26 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Vidly.Models;
+using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
   public class CustomersController : Controller
   {
+    private ApplicationDbContext _context;
+
+    public CustomersController()
+    {
+      _context = new ApplicationDbContext();
+    }
+
+    protected override void Dispose(bool disposing)
+    {
+      _context.Dispose();
+    }
+
+    public ActionResult New()
+    {
+      var membershipTypes = _context.MembershipTypes.ToList();
+      var viewModel = new NewCustomerViewModel()
+      {
+        Customer = new Customer(),
+        MembershipTypes = membershipTypes
+      };
+
+      return View("New", viewModel);
+    }
     // GET: Customers
     public ActionResult Index()
     {
-      var customers = GetCustomers();
-
+      var customers = _context.Customers.Include(c => c.MembershipType).ToList();
 
       return View(customers);
     }
 
     public ActionResult Details(int id)
     {
-      var customer = GetCustomers().SingleOrDefault(person => person.Id == id);
+      var customer = _context.Customers.Include(c => c.MembershipType).SingleOrDefault(person => person.Id == id);
 
       if (customer == null)
       {
@@ -30,16 +54,5 @@ namespace Vidly.Controllers
       return View(customer);
     }
 
-    private IEnumerable<Customer> GetCustomers()
-    {
-      return new List<Customer>()
-      {
-        new Customer(){Id = 0, Name = "Einars"},
-        new Customer(){Id = 1, Name = "Edite"},
-        new Customer(){Id = 2, Name = "Daniels"},
-        new Customer(){Id = 3, Name = "Alise"},
-        new Customer(){Id = 4, Name = "Kristians"}
-      };
-    }
   }
 }

@@ -117,7 +117,6 @@ d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Web.WebPages.Raz
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Core.xml
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.Owin.xml
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.dll
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
@@ -126,3 +125,17 @@ d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.Gene
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedtoCustomer.resources
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameTOMembershipType.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDOBToCustomerClass.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatedDOBToBeNullable.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenreClass.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenreClass1.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.Update.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.Update1.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.Update2.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.Update3.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatedMoviesFields.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMemberships.resources
