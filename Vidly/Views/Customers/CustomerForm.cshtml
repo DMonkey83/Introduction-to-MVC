@@ -4,30 +4,40 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>New Customer</h2>
+<h2>@Model.Title</h2>
 
 @using (@Html.BeginForm("Save", "Customers"))
 {
+  @Html.ValidationSummary(true, "Please fix the following errors.")
   <div class="grid-container">
       <div class="grid-x grid-padding-x">
           <div class="medium-4 cell">
               @Html.LabelFor(model => model.Customer.Name)
               @Html.TextBoxFor(model => model.Customer.Name)
+              @Html.ValidationMessageFor(model => model.Customer.Name)
           </div>
           <div class="medium-4 cell">
               @Html.LabelFor(model => model.Customer.BirthDate)
               @Html.TextBoxFor(model => model.Customer.BirthDate, "{0:d MM yyyy}")
+              @Html.ValidationMessageFor(model => model.Customer.BirthDate)
           </div>
           <div class="medium-5 cell">
               @Html.LabelFor(m => m.Customer.MembershipTypeId)
               @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select a membership", new { @class = "form-control" })
+              @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
           </div>
           <fieldset class="medium-4 cell">
               @Html.LabelFor(model => model.Customer.IsSubscribedToNewsLetter)
               @Html.CheckBoxFor(model => model.Customer.IsSubscribedToNewsLetter)
           </fieldset>
           @Html.HiddenFor(m => m.Customer.Id)
-          <button class="hollow button medium-2" type="submit" >Save</button>
+          @Html.AntiForgeryToken()
+          <button class="hollow button medium-2" type="submit" >@Model.Button</button>
       </div>
   </div>
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
 }

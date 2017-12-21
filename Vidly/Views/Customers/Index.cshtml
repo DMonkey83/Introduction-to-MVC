@@ -5,6 +5,9 @@
     ViewBag.Title = "Customers";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<h3>Customer List</h3>
+<hr />
+@Html.ActionLink("New", "New", "Customers", "", new{@class="button"})
 @if (!Model.Any())
 {
     <p>No customers yet</p>
