@@ -144,3 +144,11 @@ d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.Update5.resources
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.updatedmodels.resources
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.updatedmodelsformovie.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Web.Http.dll
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Web.Http.xml
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\AutoMapper.dll
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\AutoMapper.xml
