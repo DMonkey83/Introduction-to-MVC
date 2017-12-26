@@ -26,6 +26,8 @@ namespace Vidly.Models
     [Required]
     [Range(1,20,ErrorMessage = "Rhe field Number in Stock must be between 1 and 20")]
     public int NumberInStock { get; set; }
+
+    public byte NumberAvailable { get; set; }
     public Genre Genre { get; set; }
     [Required]
     [DisplayName("Genres")]

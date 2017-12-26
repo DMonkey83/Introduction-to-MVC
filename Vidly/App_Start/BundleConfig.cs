@@ -13,7 +13,9 @@ namespace Vidly
                 "~/Scripts/jquery-{version}.js",
                 "~/Scripts/respond.js",
                 "~/Scripts/DataTables/jquery.dataTables.js",
-                "~/Scripts/DataTables/dataTables.foundation.js"
+                "~/Scripts/DataTables/dataTables.foundation.js",
+                "~/Scripts/toastr.js",
+                "~/Scripts/typeahead.bundle.js"
                 ));
 
       bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -28,6 +30,7 @@ namespace Vidly
                 "~/dist/css/foundation.css",
                 "~/Content/DataTables/dataTables.foundation.css",
                 "~/Content/DataTables/jquery.dataTables.css",
+                "~/Content/toastr.css",
                 "~/Content/site.css"));
     }
   }

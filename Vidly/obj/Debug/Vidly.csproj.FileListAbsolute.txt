@@ -152,3 +152,6 @@ d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Web.Http.xml
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\AutoMapper.dll
 d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\AutoMapper.xml
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedRentals.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedRentals2.resources
+d:\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedRentals3.resources
